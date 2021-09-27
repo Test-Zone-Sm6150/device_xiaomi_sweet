@@ -28,6 +28,9 @@ TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 TARGET_BOOTLOADER_BOARD_NAME := sweet
 TARGET_NO_BOOTLOADER := true
 
+# Camera
+TARGET_USES_QTI_CAMERA_DEVICE := true
+
 # Kernel
 # Kernel
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200n8 androidboot.console=ttyMSM0
